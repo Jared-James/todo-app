@@ -47,7 +47,8 @@ const renderTodos = (todos, filters) => {
   }
 }
 
-//Remove todo function
+
+//Remove todo function - new note
 const removeTodo = id => {
  const todoIndex = todos.findIndex(todo => todo.id === id)
   if (todoIndex > -1) {
