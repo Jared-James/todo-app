@@ -32,3 +32,4 @@ document.getElementById('checked').addEventListener('change', (e) => {
   filters.hideCompleted = e.target.checked
   renderTodos(todos, filters)
 })
+
