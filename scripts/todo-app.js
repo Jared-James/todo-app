@@ -16,11 +16,16 @@ document.getElementById('new-todo').addEventListener('input', (e) => {
 
 document.getElementById('todo-form').addEventListener('submit', (e) => {
   event.preventDefault()
+  const result = e.target.elements.todoForm.value.trim()
+  if (result.length > 0) {
   todos.push({
     id: uuidv4(),
-    text: e.target.elements.todoForm.value,
+    text: result,
     completed: false
   })
+} else {
+  return null
+}
 
   saveTodos(todos)
   renderTodos(todos, filters)

@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+  <title>To-do App</title>
+  <link href="/styles/styles.css" rel="stylesheet">
 </head>
-
 <body>
-  <h1>The ToDo Application</h1>
-  <input id="new-todo" type="text" placeholder="Search">
-  <label>
-    <input id="checked" type="checkbox"> Hide completed
+  <div class="header">
+    <div class="container">
+      <h1 class="header__title">To-do App</h1>
+      <h2 class="header__subtitle">What do you need to do</h2>
+    </div>
+  </div>
+  
+  <div class="actions">
+    <div class="actions__container">
+      <input id="new-todo" type="text" class="input" placeholder="Filter todos">
+      <label class="checkbox">
+        <input id="checked" type="checkbox"> Hide completed
+      </label>
+    </div>
+  </div>
   </label>
-  <div id='todo-id'></div>
-  <form id="todo-form">
-    <input type="text" placeholder="New Todo" name="todoForm">
-    <button>Submit</button>
-  </form>
-  <scrript src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment-with-locales.min.js"></scrript>
 
-  <script src="http://wzrd.in/standalone/uuid%2Fv4@latest"></script>
-  <script src="todo-app-functions.js"></script>
-  <script src="todo-app.js"></script>
+  <div class="container">
+    <div id='todo-id'></div>
+    <form id="todo-form">
+      <input type="text" class="input" placeholder="New Todo" name="todoForm">
+      <button class="button">Add Todo</button>
+    </form>
+  </div>
+  <script src="/scripts/uuidv4.js"></script>
+  <script src="/scripts/todo-app-functions.js"></script>
+  <script src="/scripts/todo-app.js"></script>
 </body>
 
 </html> 
