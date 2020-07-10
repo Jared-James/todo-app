@@ -13,6 +13,7 @@ const fetchTodos = () => {
 }
 
 
+
 // Save todos to localStorage
 const saveTodos = todos => {
   localStorage.setItem('todos', JSON.stringify(todos))
