@@ -2,11 +2,11 @@
 
 *A task manager application that features*
 
-Creating,
-Reading,
-Updating,
-Deleting,
-Filtering
+- Creating
+- Reading
+- Updating
+- Deleting
+- Filtering
 
 ## Motivation
 This project was created to show a CRUD application using basic javascript.
