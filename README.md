@@ -2,10 +2,10 @@
 
 *A task manager application that features*
 
-Creating
-Reading
-Updating
-Deleting
+Creating,
+Reading,
+Updating,
+Deleting,
 Filtering
 
 ## Motivation
