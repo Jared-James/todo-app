@@ -1,6 +1,6 @@
 # todo-app
 
-A task manager application that features,
+*A task manager application that features*
 
 Creating
 Reading
