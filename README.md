@@ -16,6 +16,6 @@ Javascript & express
 
 ## Installation
 
-NPM install
-NPM run start - Node
-NPM run dev - Nodemon
+- NPM install
+- NPM run start - Node
+- NPM run dev - Nodemon
