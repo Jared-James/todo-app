@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Master</title>
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <h1 class="header__title">Task Master</h1>
+      <h2 class="header__subtitle">Write it down, get it done!</h2>
+    </div>
+  </div>
+  
+  <div class="actions">
+    <div class="actions__container">
+      <input id="new-todo" type="text" class="input" placeholder="Filter tasks">
+      <label class="checkbox">
+        <input id="checked" type="checkbox"> Hide completed
+      </label>
+    </div>
+  </div>
+  </label>
+
+  <div class="container">
+    <div id='todo-id'></div>
+    <form id="todo-form">
+      <input type="text" class="input" placeholder="New task" name="todoForm" autocomplete="off" >
+      <button class="button">Add task</button>
+    </form>
+  </div>
+  <script src="js/uuidv4.js"></script>
+  <script src="js/todo-app-functions.js"></script>
+  <script src="js/todo-app.js"></script>
+</body>
+
+</html> 
