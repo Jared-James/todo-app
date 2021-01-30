@@ -17,5 +17,8 @@ Javascript & express
 ## Installation
 
 - NPM install
-- NPM run start - Node
 - NPM run dev - Nodemon
+
+---
+
+Runs on: localhost:3000 
