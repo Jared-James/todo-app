@@ -25,3 +25,7 @@ Javascript & express
 ### Runs on:
 - localhost:3000 
 - nodemon
+
+---
+
+<img align="center" alt="GIF"  src="readme_gif/task manager.gif" />
