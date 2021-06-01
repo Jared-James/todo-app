@@ -1,5 +1,7 @@
 # Task manager 
 
+https://jared-todo.netlify.app/
+
 *A task manager application that features*
 
 - 💹 Creating
